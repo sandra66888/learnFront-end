@@ -2,6 +2,7 @@ module.exports = {
   title: "前端小记",
   description: "记录学习前端遇到的小问题",
   theme: "reco",
+  base: './',
   locales: {
     '/': {
       lang: 'zh-CN'
