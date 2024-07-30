@@ -2,7 +2,8 @@ module.exports = {
   title: "前端小记",
   description: "记录学习前端遇到的小问题",
   theme: "reco",
-  base: './',
+  // base: './',
+  base:'/learnFront-End/',
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -29,7 +30,7 @@ module.exports = {
       },
       {
         title: "HTML",
-        path: "/learnHTML/defer.md",
+        path: "/learnHTML/defer",
         collapsable: false, // 不折叠
         children: [
           {
