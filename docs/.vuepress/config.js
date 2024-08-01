@@ -3,7 +3,7 @@ module.exports = {
   description: "记录学习前端遇到的小问题",
   theme: "reco",
   // base: './',
-  base:'/learnFront-End/',
+  base:'/learnFront-End/', // 部署用
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -22,11 +22,19 @@ module.exports = {
       },
     ],
     sidebar: [
+      // {
+      //   title: "JS",
+      //   path: "/",
+      //   collapsable: false, // 不折叠
+      //   children: [{ title: "js学习", path: "/" }],
+      // },
       {
         title: "JS",
-        path: "/",
+        path: "/learnJS/this",
         collapsable: false, // 不折叠
-        children: [{ title: "js学习", path: "/" }],
+        children: [{ title: "this指向问题", path: "/learnJS/this.md" },{
+          title:'call,bind,apply的区别',path:'/learnJS/call，bind，applly.md'
+        }],
       },
       {
         title: "HTML",

@@ -29,6 +29,7 @@ package-lock.json
 /tsc/test
 /site_docs
 /coverage
+/.history
 
 # local env files
 .env.local
