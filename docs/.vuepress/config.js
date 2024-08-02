@@ -34,7 +34,7 @@ module.exports = {
         collapsable: false, // 不折叠
         children: [{ title: "this指向问题", path: "/learnJS/this.md" },{
           title:'call,bind,apply的区别',path:'/learnJS/call，bind，applly.md'
-        }],
+        },{ title: "js垃圾回收机制", path: "/learnJS/garabageCollection.md" }],
       },
       {
         title: "HTML",
@@ -46,6 +46,18 @@ module.exports = {
             path: "/learnHTML/defer.md",
           },
           { title: "hash", path: "/learnHTML/hash.md" },
+        ],
+      },
+      {
+        title: "CSS",
+        path: "/learnCSS/scope",
+        collapsable: false, // 不折叠
+        children: [
+          {
+            title: "scope样式隔离原理",
+            path: "/learnCSS/scope.md",
+          },
+          // { title: "hash", path: "/learnHTML/hash.md" },
         ],
       },
     ],
