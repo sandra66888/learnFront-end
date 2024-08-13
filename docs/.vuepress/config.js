@@ -60,6 +60,18 @@ module.exports = {
           // { title: "hash", path: "/learnHTML/hash.md" },
         ],
       },
+      {
+        title: 'VUE',
+        path: "/learnVUE/router",
+        collapsable: false, // 不折叠
+        children: [
+          {
+            title: "route中的push和resolve区别",
+            path: "/learnVUE/router.md",
+          },
+          // { title: "hash", path: "/learnHTML/hash.md" },
+        ],
+      },
     ],
   },
 };
